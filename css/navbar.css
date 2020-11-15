@@ -64,13 +64,13 @@
 /**/
 
 /**/
-nav ul a:hover{
+nav-item ul a:hover{
   color: #ec2227 !important;
 }
 nav li{
     text-align: center;
 }
-li > a:after{
+nav li > a:after{
     content: '';
     display: block;
     height: 1.5px;
@@ -78,7 +78,7 @@ li > a:after{
     transform: scaleX(0);
     transition: transform .3s;
 }
-li > a:hover:after{
+nav li > a:hover:after{
     transform: scaleX(1);
     transition: transform .3s;
 }
