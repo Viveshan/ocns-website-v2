@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Overview</title>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript">
+    $(function(){
+      $('#head').load('head.html');
+    });
+  </script>
+  <script type="text/javascript">
+    $(function(){
+      $('#navbar').load('nav-bar.html');
+    });
+  </script>
+  <script type="text/javascript">
+    $(function(){
+      $('#footer').load('footer.html');
+    });
+  </script>
+
+  <div id="head"></div>
+
+</head>
+
+<body>
+
+<div id="navbar"></div>
+
+<style>
+.sidenav {
+  width: 130px;
+  position: fixed;
+  z-index: 1;
+  top: 20px;
+  left: 10px;
+  background: #eee;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #e0001b;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #353a40;
+}
+
+.main {
+  margin-left: 140px; /* Same width as the sidebar + left position in px */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+<div class="sidenav">
+  <a href="#about">About Us</a>
+  <a href="#services">Overview</a>
+  <a href="#clients">Company Profile</a>
+  <a href="#contact">Leadership</a>
+  <a href="#contact">Teams</a>
+  <a href="#contact">Clients</a>
+  <a href="#contact">B-BBEE</a>
+  <a href="#contact">CSI</a>
+  <a href="#contact">Sustainability</a>
+  <a href="#contact">Our Manifesto</a>
+  <a href="#contact">Ethics</a>
+  <a href="#contact">Health & Safety</a>
+  <a href="#contact">Covid-19</a>
+</div>
+
+<!-- Start -->
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1>About Us</h1>
+  </div>
+</div>
+<!-- End -->
+
+<div id="footer"></div>
+
+</body>
+</html>
