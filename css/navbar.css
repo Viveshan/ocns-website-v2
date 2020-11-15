@@ -64,18 +64,17 @@
 /**/
 
 /**/
-ul a:hover{
-  color: #FBC02D !important;
+nav ul a:hover{
+  color: #ec2227 !important;
 }
 nav li{
     text-align: center;
-    text-transform: uppercase;
 }
 li > a:after{
     content: '';
     display: block;
     height: 1.5px;
-    background: #FBC02D;
+    background: #ec2227;
     transform: scaleX(0);
     transition: transform .3s;
 }
@@ -84,5 +83,5 @@ li > a:hover:after{
     transition: transform .3s;
 }
 .active{
-    color: #FBC02D !important;
+    color: #ec2227 !important;
 }
